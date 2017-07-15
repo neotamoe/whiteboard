@@ -8,15 +8,12 @@
 // https://edabit.com/challenge/4gzDuDkompAqujpRi
 
 function addUp(num) {
-	var absolute = parseInt(num - 0);
-  console.log('absolute:' + absolute);
-
   var total = 0;
-  console.log('total not in loop: ' + total);
-  for (var i = 1; i <= absolute; i++) {
-    console.log('absolute in loop: ' + absolute);
+  for (var i = 1; i <= num; i++) {
 		total += i;
-    console.log('total in loop: ' + total);
+    console.log('total:' + total);
   }
   return total;
 }
+
+addUp(4);
